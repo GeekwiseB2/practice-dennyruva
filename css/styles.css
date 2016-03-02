@@ -1,4 +1,111 @@
-.my-name{
-  color: red;
-  font-style: italic;
+
+
+.container-fluid{
+  background-color: grey;
+  padding: 20px;
+}
+
+.header{
+  background-color: blue;
+  padding: 20px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.nav{
+  background-color: green;
+  padding: 20px;
+  height: 200px;
+  border: 2px solid black;
+}
+.content{
+  background-color: red;
+  padding: 20px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.aside{
+background-color: aqua;
+padding: 20px;
+height:200px;
+border: 2px solid black;
+}
+
+.promo{
+  background-color: orange;
+  padding: 20px;
+  height: 250px;
+  border: 2px solid black;
+}
+
+.footer{
+  color: white;
+  background-color: rgb(128, 30, 109);
+  padding: 20px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+@media screen and (min-width: 768px){
+
+.container-fluid{
+background-color: rgb(158, 19, 19)
+}
+
+.header{
+  background-color: rgb(39, 0, 230)
+}
+
+.nav{
+  background-color: rgb(112, 72, 32)
+}
+
+.content{
+  background-color: rgb(108, 113, 0)
+}
+
+.aside{
+  background-color: rgb(0, 246, 231)
+}
+
+.promo{
+background-color: rgb(0, 223, 38)
+}
+
+  .footer{
+    background-color: rgb(215, 162, 71)
+  }
+}
+
+
+@media screen and (min-width: 375px){
+
+  .container-fluid{
+  background-color: rgb(170, 170, 170)
+  }
+
+  .header{
+    background-color: rgb(20, 66, 69)
+  }
+
+  .nav{
+    background-color: rgb(210, 86, 52)
+  }
+
+  .content{
+    background-color: rgb(108, 113, 0)
+  }
+
+  .aside{
+    background-color: rgb(249, 0, 57)
+  }
+
+  .promo{
+  background-color: rgb(0, 223, 38)
+  }
+
+    .footer{
+      background-color: rgb(244, 190, 0)
+    }
 }
