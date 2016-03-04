@@ -79,7 +79,7 @@ background-color: rgb(0, 223, 38)
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px){
 
   .container-fluid{
   background-color: rgb(170, 170, 170)
